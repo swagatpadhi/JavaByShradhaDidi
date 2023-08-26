@@ -9,6 +9,7 @@ public class Q1 {
                 System.out.print("*");
             }
             System.out.println();
+            System.out.println();
         }
     }
 
