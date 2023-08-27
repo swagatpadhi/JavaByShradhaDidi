@@ -1,12 +1,12 @@
-package lec5Questions;
-//half pyramid with numbers
-//1
-//12
-//123
+package lec5_patterns_basic;
+//inverted half pyramid with numbers
 //1234
-public class Q6 {
+//123
+//12
+//1
+public class Q7 {
     public static void main(String[] args){
-        for(int i = 1; i <= 4; i++){
+        for(int i = 4; i >= 1; i--){
             for(int j = 1; j <= i; j++){
                 System.out.print(j);
             }

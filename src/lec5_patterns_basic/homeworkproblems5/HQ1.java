@@ -1,4 +1,4 @@
-package lec5Questions.homeworkproblems5;
+package lec5_patterns_basic.homeworkproblems5;
 //   *****
 //  *****
 // *****

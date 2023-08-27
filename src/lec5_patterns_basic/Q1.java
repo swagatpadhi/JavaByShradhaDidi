@@ -1,4 +1,4 @@
-package lec5Questions;
+package lec5_patterns_basic;
 //solid rectangle
 public class Q1 {
     public static void main(String[] args){

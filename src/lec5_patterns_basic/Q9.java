@@ -1,4 +1,4 @@
-package lec5Questions;
+package lec5_patterns_basic;
 //0-1 Triangle
 //1
 //01

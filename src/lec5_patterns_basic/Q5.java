@@ -1,4 +1,4 @@
-package lec5Questions;
+package lec5_patterns_basic;
 //inverted half pyramid
 //(rotated by 180 degrees)
 //   *
