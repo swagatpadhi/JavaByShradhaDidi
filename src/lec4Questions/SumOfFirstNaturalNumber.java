@@ -1,7 +1,7 @@
 package lec4Questions;
 //print the sum of first n natural numbers.
 import java.util.Scanner;
-public class Q1 {
+public class SumOfFirstNaturalNumber {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Please enter value of n:");
