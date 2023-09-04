@@ -1,4 +1,4 @@
-package lec14_BitManipulation;
+package lec15_BitManipulation;
 import java.util.Scanner;
 
 public class UpdateBit {

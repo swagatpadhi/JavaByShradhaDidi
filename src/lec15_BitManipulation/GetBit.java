@@ -1,4 +1,4 @@
-package lec14_BitManipulation;
+package lec15_BitManipulation;
 
 public class GetBit {
     public static void main(String[] args) {
