@@ -7,6 +7,7 @@ public class InsertionSort {
         int[] arr = {7,8,3,1,2};
 
         //insertion sort
+        //time complexity is O(n^2)
         for (int i = 1; i < arr.length; i++) {
             int currentElement = arr[i];
             //traversing in the sorted part and shifting
