@@ -1,4 +1,4 @@
-package sorting;
+package lec16_sorting;
 import java.util.Arrays;
 
 public class BubbleSorting {
