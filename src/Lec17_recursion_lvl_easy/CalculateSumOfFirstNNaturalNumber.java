@@ -5,7 +5,8 @@ public class CalculateSumOfFirstNNaturalNumber {
         if (number == 1) {
             return 1;
         }
-        return number + calcFirstNNaturalNumberSum(number - 1);
+        int val = number + calcFirstNNaturalNumberSum(number - 1);
+        return val;
     }
 
     public static void calcSumNaturalNumbers(int n, int end, int sum) {
@@ -18,7 +19,7 @@ public class CalculateSumOfFirstNNaturalNumber {
         calcSumNaturalNumbers(n + 1, end, sum);
     }
     public static void main(String[] args) {
-//        System.out.println(calcFirstNNaturalNumberSum(5));
+       System.out.println(calcFirstNNaturalNumberSum(5));
 //        calcSumNaturalNumbers(1, 5, 0);
 
     }
