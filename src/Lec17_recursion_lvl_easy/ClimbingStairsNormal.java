@@ -2,7 +2,7 @@ package Lec17_recursion_lvl_easy;
 
 public class ClimbingStairsNormal {
     public static void main(String[] args) {
-        System.out.println(countNumberOfWays(4) + " different ways");
+        System.out.println(countNumberOfWays(3)+ " different ways");
     }
 
     private static int countNumberOfWays(int i) {
