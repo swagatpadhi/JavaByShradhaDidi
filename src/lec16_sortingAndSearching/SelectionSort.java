@@ -1,4 +1,4 @@
-package lec16_sorting;
+package lec16_sortingAndSearching;
 
 import java.util.Arrays;
 
