@@ -1,6 +1,6 @@
 package Lec17_recursion_lvl_easy;
 
-public class ClimbingStairs {
+public class ClimbingStairsUsingMemoization {
     public static void main(String[] args) {
         int[] memo = new int[45 + 1];
         System.out.println(countWays(45, memo)+" possible ways");
