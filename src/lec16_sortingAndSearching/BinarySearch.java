@@ -8,6 +8,7 @@ public class BinarySearch {
         int key = 8;
         System.out.println(binarySearch2(arr, key));
     }
+    //time complexity is O(logn)
     public static boolean binarySearch2(int[] arr, int key) {
         int si = 0;
         int ei = arr.length - 1;

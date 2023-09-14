@@ -1,6 +1,7 @@
 package lec16_sortingAndSearching;
 
 public class LinearSearch {
+    //time complexity is O(n)
     public static int linearSearch(int key, int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key) {
