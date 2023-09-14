@@ -1,4 +1,4 @@
-package lec16_sortingAndSearching;
+package lec16_sortingAndSearching.binarySearchProblems;
 import java.util.Arrays;
 
 public class BinarySearch {
