@@ -8,7 +8,6 @@ public class ThalaOrNot {
         int result = thalaForAReason(s);
         if (result == 7) {
             char[] charArray = s.toCharArray();
-
             for (int i=0; i <= charArray.length-1; i++) {
                 System.out.print(charArray[i] + "");
                 if (i < charArray.length - 1) {
