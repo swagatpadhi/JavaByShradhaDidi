@@ -5,35 +5,35 @@ public class Stack {
     int top;
     int[] s;
 
-    Stack(){
+    Stack() {
         s = new int[max_size];
         top = -1;
     }
 
-    public void push(int data){
-        if(top == max_size - 1){
+    public void push(int data) {
+        if (top == max_size - 1) {
             System.out.println("stack overflow, can't push onto a full stack.");
-        }else {
+        } else {
             top = top + 1;
             s[top] = data;
-            System.out.println("Pushed "+data+" onto stack.");
+            System.out.println("Pushed " + data + " onto stack.");
         }
     }
 
     public void pop() {
-        if(top == -1) {
+        if (top == -1) {
             System.out.println("stack underflow, can't pop from an empty stack.");
-        }else{
+        } else {
             int x = s[top];
             top = top - 1;
-            System.out.println(x+" got popped from the stack");
+            System.out.println(x + " got popped from the stack");
         }
     }
 
     public void peek() {
-        if(top == -1) {
+        if (top == -1) {
             System.out.println("Can't peek from an empty stack.");
-        }else {
+        } else {
             System.out.println(s[top] + " is at top.");
         }
     }
