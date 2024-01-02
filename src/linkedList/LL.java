@@ -27,6 +27,27 @@ public class LL {
         }
     }
 
+    public void deleteFirst(){
+        if(head == null){
+            System.out.println("linked list is empty.");
+        }else {
+            head = head.next;
+        }
+    }
+
+    public void deleteLast(){
+        if(head == null){
+            System.out.println("linked list is empty");
+        }
+        else{
+            Node currNode = head;
+            while(currNode.next.next != null){
+                currNode = currNode.next;
+            }
+            currNode.next = null;
+        }
+    }
+
     public void traverse() {
         if (head == null) {
             System.out.println("Linked-List is empty.");

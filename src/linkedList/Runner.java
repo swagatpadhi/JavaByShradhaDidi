@@ -6,6 +6,11 @@ public class Runner {
         list.addFirst("Swagat");
         list.addLast("cool");
         list.addLast("boy");
+        list.deleteFirst();
+        list.traverse();
+        System.out.println();
+        list.addFirst("Kabir");
+        list.deleteLast();
         list.traverse();
     }
 }
