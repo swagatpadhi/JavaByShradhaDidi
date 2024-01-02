@@ -60,4 +60,20 @@ public class LL {
             System.out.print("null");
         }
     }
+
+    public void size(){
+        if(head == null){
+            System.out.println("size is 0");
+        } else if (head.next == null) {
+            System.out.println("size is 1");
+        }else{
+            Node currNode = head;
+            int i = 1;
+            while(currNode.next != null){
+                currNode = currNode.next;
+                i++;
+            }
+            System.out.println("size is "+i);
+        }
+    }
 }
