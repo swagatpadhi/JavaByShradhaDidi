@@ -5,6 +5,7 @@ public class LL {
 
     public void addFirst(String data) {
         Node newNode = new Node(data);
+        //condition for no node at all.
         if (head == null) {
             head = newNode;
         }else{
