@@ -39,6 +39,22 @@ public class Queue_Array {
         }
     }
 
+    public void frontPeek() {
+        if(r == -1) {
+            System.out.println("can't front-peek from an empty queue.");
+        }else {
+            System.out.println("after front-peeking: "+q[f]);
+        }
+    }
+
+    public void rearPeek() {
+        if(r == -1) {
+            System.out.println("can't rear-peek from an empty queue.");
+        }else {
+            System.out.println("after rear-peeking: "+q[r]);
+        }
+    }
+
     public static void main(String[] args) {
         Queue_Array myQueue = new Queue_Array();
         myQueue.enqueue(5);
@@ -47,5 +63,7 @@ public class Queue_Array {
         myQueue.dequeue();
         myQueue.enqueue(87);
         myQueue.dequeue();
+        myQueue.frontPeek();
+        myQueue.rearPeek();
     }
 }
