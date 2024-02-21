@@ -19,6 +19,7 @@ public class InsertionSort {
             }
 
             //inserting
+            //upon curr < arr[j] becomes false
             arr[j + 1] = currentElement;
         }
 
